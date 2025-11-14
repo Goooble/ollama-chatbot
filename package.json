@@ -1,0 +1,35 @@
+{
+  "name": "odin-basic-info",
+  "version": "1.0.0",
+  "description": "Setting up a basic Node.js server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goooble/odin-basic-info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goooble/odin-basic-info/issues"
+  },
+  "homepage": "https://github.com/Goooble/odin-basic-info#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "prettier": "^3.6.2",
+    "prettier-eslint": "^16.4.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
+}
